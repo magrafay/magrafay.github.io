@@ -1,0 +1,90 @@
+/* --------------------------------- */
+/* Css Color Style                   */
+/*---------------------------------- */
+
+/* Variables */
+$primary-color:#1e1e1e;
+$secondary-color: #48484e;
+$text-color: #fff;
+$icon-color: #000;
+/* Inner Styles */
+.primary-color {
+    background-color: $primary-color;
+}
+.secondary-color {
+    background-color: $secondary-color;
+}
+
+.text-color {
+    background-color: $text-color;
+}
+
+.icon-color {
+    background-color: $icon-color;
+}
+
+header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before {
+  background: $primary-color !important;
+}
+
+header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price, .cbp-filter-item-active, .portfolio-content p span {
+  color: $primary-color !important;
+}
+
+#blog-post .blog-sidebar {
+  ul.category-list li a:hover, .popular-posts ul li a .info {
+    color: $primary-color !important;
+  }
+}
+
+.spinner:before {
+  border-top-color: $secondary-color;
+}
+
+ul.profile-information li:before {
+  border-color: $primary-color;
+}
+
+/* Hover Color*/
+
+.site-btn:hover, header nav a.home-btn:hover, .section-title span {
+  background-color: $secondary-color !important;
+}
+
+/* Opacity Color*/
+
+#portfolio .cbp-item {
+  .portfolio-image .icon i, figure .icon i {
+    background: rgb(255, 197, 1);
+  }
+}
+
+/* for light colors */
+
+.site-btn, header nav a.home-btn i, ul.profile-information li:first-child:before, #blog .blog-box .date span, .timeline li:first-child i, .cbp-l-loadMore-link.site-btn {
+  color: $text-color !important;
+}
+
+.timeline li:before, ul.profile-information li:before {
+  border-color: $secondary-color !important;
+}
+
+.tab.active a {
+  color: $secondary-color;
+}
+
+#blog-post {
+  .post-list ul li a, .post-comment ul li .comment-content a {
+    color: $secondary-color;
+  }
+}
+
+
+
+
+
+
+
+
+
+
