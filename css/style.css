@@ -529,8 +529,9 @@ ul.profile-information li:first-child:after {
 }
 
 .profile .site-btn {
-    margin: 18px auto 30px;
-    display: block;
+    margin: 0 auto 30px;
+    display: flex;
+    min-width: 151px;
 }
 
 
